@@ -1,5 +1,6 @@
 import AppLayout from '@/layouts/app/app-horizontal-layout';
 import AboutSection from './components/AboutSection';
+import CarouselSection from './components/CarouselSection';
 import ContactPreview from './components/ContactPreview';
 import CortinaSection from './components/CortinaSection';
 import HeroSection from './components/HeroSection';
@@ -15,6 +16,7 @@ const Index = () => {
                 <CortinaSection />
                 <ServicesSection />
                 <PersianaSection />
+                <CarouselSection />
                 <AboutSection />
                 <TestimonialsSection />
                 <ContactPreview />
