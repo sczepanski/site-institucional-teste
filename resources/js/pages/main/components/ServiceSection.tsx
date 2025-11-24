@@ -10,12 +10,12 @@ const services = [
 export default function ServicesSection() {
     return (
         <section className="py-20 px-6 bg-blue-50" id="servicos">
-            <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto font-sora">
+            <div className="grid md:grid-cols-4 gap-4 max-w-5xl mx-auto font-sora">
                 {services.map((s, i) => (
                     <div key={i} className="p-2 text-center">
-                        <s.icon className="text-4xl mb-3 mx-auto text-blue-600" />
-                        <h3 className="text-xl font-normal mb-3 text-blue-600">{s.title}</h3>
-                        <p className="text-slate-600">{s.desc}</p>
+                        <s.icon className="text-5xl mb-3 mx-auto text-blue-600" />
+                        <h3 className="text-lg font-normal mb-3 text-blue-600">{s.title}</h3>
+                        <p className="text-slate-600 text-md">{s.desc}</p>
                     </div>
                 ))}
             </div>

@@ -77,7 +77,7 @@ const CortinaSection = () => {
                 </div>
                 <div className="w-1/3">
                     <div className="flex flex-col gap-2">
-                        <ImageModelHome />
+                        <ImageModelHome variant="cortina" />
                     </div>
                 </div>
             </section>
