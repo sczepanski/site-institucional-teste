@@ -53,11 +53,11 @@ const CarouselSection = () => {
         <Slider className="text-black max-w-5xl mx-auto" {...settings}>
             {produtos.map((produto, index) => (
                 <div key={index} className="flex justify-center">
-                    <div className="w-100 h-160 mx-auto">
+                    <div className="w-[32rem] aspect-square mx-auto">
                         <img
                             src={produto.img}
                             alt={produto.desc}
-                            className="w-full h-full object-cover rounded-md shadow"
+                            className="w-[20rem] h-[32rem] object-cover rounded-md shadow"
                         />
                     </div>
                 </div>

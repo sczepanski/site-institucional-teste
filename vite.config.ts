@@ -1,5 +1,4 @@
 import { wayfinder } from '@laravel/vite-plugin-wayfinder';
-import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import { execSync } from 'child_process';
 import laravel from 'laravel-vite-plugin';
@@ -30,7 +29,6 @@ export default defineConfig({
                 plugins: ['babel-plugin-react-compiler'],
             },
         }),
-        tailwindcss(),
         ...wayfinderPlugin,
     ],
     esbuild: {

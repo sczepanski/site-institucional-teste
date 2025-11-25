@@ -9,7 +9,7 @@ const services = [
 
 export default function ServicesSection() {
     return (
-        <section className="py-20 px-6 bg-blue-50" id="servicos">
+        <section className="py-20 px-6 bg-primary-50" id="servicos">
             <div className="grid md:grid-cols-4 gap-4 max-w-5xl mx-auto font-sora">
                 {services.map((s, i) => (
                     <div key={i} className="p-2 text-center">

@@ -9,7 +9,7 @@ export default function Header() {
         router.flushAll();
     };
     return (
-        <header className="fixed top-0 left-0 w-full bg-black/30 backdrop-blur-sm z-5 shadow">
+        <header className="fixed top-0 left-0 w-full bg-black/30 backdrop-blur-sm z-10 shadow">
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center overflow-x-hidden">
                 {/* Logo */}
                 <h1 className="text-xl font-bold text-slate-50 flex gap-2">Costurart</h1>

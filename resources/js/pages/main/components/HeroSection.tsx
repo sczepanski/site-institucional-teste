@@ -25,9 +25,9 @@ export default function HeroSection() {
             <img
                 src={imagemFundo}
                 alt="Imagem de fundo"
-                className="absolute top-0 left-0 w-full h-full object-cover filter brightness-60 -z-5"
+                className="absolute top-0 left-0 w-full h-full object-cover filter brightness-75 -z-10"
             />
-            <div className="max-w-5xl mx-auto flex flex-col justify-between h-120 w-full">
+            <div className="max-w-5xl mx-auto flex flex-col justify-between h-2/3 w-full">
                 <div></div>
                 <p className="text-5xl flex flex-col text-left gap-1 font-bold">
                     {items.map((item, i) => (
